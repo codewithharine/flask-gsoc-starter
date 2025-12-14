@@ -33,8 +33,4 @@ Purpose
 This project is intended as a clean, beginner-friendly Flask starter
 to demonstrate web development fundamentals and open-source readiness.
 
-STEP 8 — Commit & Push (Clean History)
-Use clear commit messages:
-git add .
-git commit -m "Initial Flask app structure and routes"
-git push
+
