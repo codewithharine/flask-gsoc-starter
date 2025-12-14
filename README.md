@@ -1,8 +1,7 @@
 Flask GSoC Starter
 
-A simple Flask web application built as part of my preparation for
+A simple Flask web application built as part of my preparation for  
 Google Summer of Code 2026.
-
 
 Features
 - Flask backend with multiple routes
@@ -11,9 +10,18 @@ Features
 
 
 Project Structure
-app.py
-templates/
-static/
+flask-gsoc-starter/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│ ├── index.html
+│ └── about.html
+│
+└── static/
+└── style.css
 
 
 Getting Started
@@ -25,12 +33,10 @@ cd flask-gsoc-starter
 pip install -r requirements.txt
 3. Run the application
 python app.py
-
-Open your browser and go to:
+Open your browser and visit:
 http://127.0.0.1:5000/
-Purpose
 
+Purpose
 This project is intended as a clean, beginner-friendly Flask starter
 to demonstrate web development fundamentals and open-source readiness.
-
 
